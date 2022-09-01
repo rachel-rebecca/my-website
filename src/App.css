@@ -1,38 +1,112 @@
+html{
+  /* background: url(assets/background.png), url(assets/backgroundflip.png) rgb(246, 230, 221);
+  background-repeat: repeat-y, repeat-y;
+  background-size: cover;
+  width: 100%; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+  color: #293D32;
+}
+
+body {
+  background: url(assets/background.png), url(assets/backgroundflip.png) rgb(246, 230, 221);
+  background-repeat: repeat-y, repeat-y;
+  background-size: cover;
+  margin: 0 !important;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+  width: 100%;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#header_navbar {
+  display: flex;
+  background-color: rgba(220, 207, 201, 0.65);
+  box-shadow: 3px -7px 28px 15px grey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-ul {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  padding: 0 1em;
+  font-size: 1em;
+  margin: 0 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-li {
+  border: solid .5px rgba(103, 98, 95, 0.3);
+  border-bottom: none;
+  border-top: none;
+  padding: 1em;
+  width: 6em;
+}
+
+.header-li:hover {
+  background-color: rgba(220, 207, 201, 0.65);
+  box-shadow: 3px -7px 28px 15px grey;
+}
+
+#nav_home {
+  border-left: solid 2px rgba(103, 98, 95, 0.3);
+}
+
+#nav_contact {
+  border-right: solid 2px rgba(103, 98, 95, 0.3)
+
+}
+
+.homepage-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+
+#homepage_main{
+  background-color: rgba(220, 207, 201, 0.2);
+  border-radius: 5px;
+  height: 40em;
+  width: 80%;
+  box-shadow: 20px 20px 50px 15px grey;
+  margin-top: 2em;
+  color: #293D32;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+#hompage_img_h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-top: 2em;
 }
+
+#homepage_profilepic {
+  height: 11em;
+  border-radius: 50%;
+}
+
+#homepage_h1_p {
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-h1 {
+  margin-right: 3em;
+}
+
+#homepage_jobtitle {
+  margin: 0px;
+  text-align: left;
+}
+
+#homepage_aboutme_p {
+  margin: 0 4em 2em;
+}
+
+
