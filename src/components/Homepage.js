@@ -1,8 +1,10 @@
-import ProfilePic from "../assets/profilepic.jpg"
+import ProfilePic from "../assets/profilepic.jpg";
+import Header from "./Header";
 
 export default function Homepage(){
     return(
-        <div aria-role="container" className="homepage-container">
+        <div aria-label="container" className="homepage-container">
+            {/* <Header/> */}
             <main id="homepage_main">
                 <div id="hompage_img_h1">
                 <img src={ProfilePic} alt="Portrait of Rachel smiling in front of a bridge wearing a white shirt and hair down" id="homepage_profilepic"/>
