@@ -304,10 +304,24 @@ body {
   color: #545f76 !important;
 }
 
-#experience_list {
+#experience_h1,
+#education_h1 {
+  margin-bottom: .5em;
+}
+
+#experience_list,
+#education_list {
   display: flex;
   flex-direction: column;
   gap: .5em;
+}
+
+dt {
+  font-size: 18px !important;
+}
+
+dd {
+  margin: 0 .5rem .5rem;
 }
 
 .footer-container {
