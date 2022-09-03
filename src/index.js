@@ -15,11 +15,11 @@ import Links from "./components/Links.js";
 import Education from "./components/Education.js";
 import Experience from "./components/Experience.js";
 import Projects from "./components/Projects.js";
-import Header from './components/Header';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-   
+  <React.StrictMode>
    <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
@@ -32,6 +32,8 @@ root.render(
       </Route>
     </Routes>
   </BrowserRouter>
+              <Footer/>
+              </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -13,10 +13,10 @@ export default function SimpleForm() {
             <Form.Label>Name
             <Form.Control type="text" placeholder="Enter name." />
             </Form.Label>
-            <Form.Label>Phone Number (Optional)
-            <Form.Control type="number" placeholder="Enter phone number." />
+            <Form.Label>Phone Number
+            <Form.Control role="phone-number" type="tel" placeholder="Enter phone number." />
             </Form.Label>
-            <Form.Label>Email (Optional)
+            <Form.Label>Email
             <Form.Control type="email" placeholder="Enter email." />
             </Form.Label>
             <Form.Label>Best date to contact you

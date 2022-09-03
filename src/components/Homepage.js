@@ -1,5 +1,4 @@
 import ProfilePic from "../assets/profilepic.jpg";
-import Header from "./Header";
 
 export default function Homepage(){
     return(
